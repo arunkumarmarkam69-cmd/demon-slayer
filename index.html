@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      height: 100vh;
+      transition: background 0.5s;
+    }
+  </style>
+</head>
+<body onclick="changeColor()">
+
+<script>
+function changeColor() {
+  document.body.style.background =
+    `rgb(${Math.random()*255}, ${Math.random()*255}, ${Math.random()*255})`;
+}
+</script>
+
+Click anywhere 😄
+</body>
+</html>
